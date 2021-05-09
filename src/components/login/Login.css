@@ -1,0 +1,250 @@
+.login {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.login__container {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+}
+
+.login__banner {
+  width: 50%;
+  height: 100%;
+}
+
+.login__banner2 {
+  display: none;
+}
+
+.login__banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.login__account {
+  width: 50%;
+  height: 100%;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.login__account img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+
+.login__account h1 {
+  font-size: 70px;
+  margin-bottom: 40px;
+}
+
+.login__account h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.login__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.login__buttons .sign__up,
+.login__buttons .log__in {
+  width: 380px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.login__buttons .sign__up {
+  background-color: #1da1f2;
+  color: white;
+  margin-bottom: 15px;
+}
+.login__buttons .sign__up:hover {
+  background-color: #048de2;
+}
+
+.login__buttons .log__in {
+  background-color: white;
+  color: #1da1f2;
+  border: 1px solid #1da1f2;
+}
+.login__buttons .log__in:hover {
+  background-color: rgba(193, 223, 241, 0.6);
+}
+
+.login__footer {
+  height: 7vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+  font-size: 12px;
+  color: #111;
+}
+.login__footer span {
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .login {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login__container {
+    width: 100vw;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login__banner2 {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .login__banner {
+    display: none;
+  }
+
+  .login__banner2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .login__account img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .login__account {
+    width: 100%;
+    min-height: 50vh;
+    padding-left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .login__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .login__buttons .sign__up,
+  .login__buttons .log__in {
+    width: 220px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .login__buttons .sign__up {
+    margin-right: 15px;
+  }
+
+  .login__footer {
+    height: 10vh;
+    width: 100vw;
+  }
+
+  .login__footer span {
+    padding-right: 15px;
+  }
+
+  .login__footer {
+    padding: 10px 20px;
+    font-size: 10px;
+    color: #111;
+  }
+
+  .login__footer span {
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .login__account {
+    padding-left: 15%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .login__account {
+    padding-left: 8%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .login__account {
+    padding: 0 8%;
+  }
+
+  .login__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+
+  .login__buttons .sign__up,
+  .login__buttons .log__in {
+    width: 90vw;
+    height: 40px;
+    border-radius: 20px;
+  }
+
+  .login__buttons .sign__up {
+    margin-bottom: 15px;
+  }
+
+  .login__account h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+
+  .login__account h2 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+
+  .login__footer {
+    padding: 10px 15px;
+    font-size: 7px;
+  }
+
+  .login__footer span {
+    padding-right: 10px;
+  }
+}
