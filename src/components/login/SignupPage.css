@@ -1,0 +1,44 @@
+.signup__container,
+.login__pageContainer {
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 100px;
+}
+
+.signup__container form,
+.login__pageContainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup__container form input,
+.login__pageContainer form input {
+  width: 350px;
+  height: 50px;
+  font-size: 15px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.signup__container form button,
+.login__pageContainer form button {
+  width: 365px;
+  height: 50px;
+  font-size: large;
+  color: #fff;
+  background-color: #0074b1;
+  border-radius: 5px;
+}
+
+.signup__container__register {
+  color: #0177b7;
+  cursor: pointer;
+}
+
+.signup__container p,
+.login__pageContainer p {
+  margin-top: 20px;
+}
