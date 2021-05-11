@@ -1,0 +1,102 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex: 0.12;
+  height: 100vh;
+  border-right: 1px solid lightgray;
+  padding-right: 10px;
+}
+
+.sidebar__icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.twitter__logo {
+  width: 50px;
+  height: 50px;
+}
+
+.icon__button,
+.icon__button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  margin: 5px;
+}
+.icon__button {
+  height: 45px !important;
+  width: 45px !important;
+}
+
+.icon__button2 {
+  height: 68px !important;
+  width: 65px !important;
+}
+
+.icon__button:hover,
+.icon__button2:hover {
+  background-color: rgb(197, 223, 240, 0.5) !important;
+}
+
+.icon {
+  height: 30px !important;
+  width: 30px !important;
+  margin: 15px 0 !important;
+  color: #383737 !important;
+  cursor: pointer;
+}
+
+.hash__icon {
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sidebar img {
+  object-fit: contain;
+}
+
+.home__icon {
+  color: #1da1f2 !important;
+}
+
+.assignment__icon {
+  height: 20px !important;
+  width: 20px !important;
+  background-color: rgb(56, 55, 55) !important;
+  color: white !important;
+}
+
+.icon:hover,
+.hash__icon:hover {
+  color: #1da1f2 !important;
+}
+
+.assignment__icon:hover {
+  background-color: #1da1f2 !important;
+  color: white !important;
+}
+
+.icon__button2 {
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.avatar {
+  height: 45px !important;
+  width: 45px !important;
+  color: #383737 !important;
+}

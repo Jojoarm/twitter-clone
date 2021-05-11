@@ -34,7 +34,7 @@
 }
 
 .signup__container__register {
-  color: #0177b7;
+  color: hsl(201, 99%, 36%);
   cursor: pointer;
 }
 
